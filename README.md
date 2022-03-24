@@ -1,5 +1,7 @@
 # Demo product frontend
 
+This is a fork of the Humanitec-tutorials repo.
+
 ## Overview
 
 This is a simple frontend that displays a list of products and lets you add more. Together with [product-be](https://github.com/walhall-tutorials/product-be), its purpose is to demonstrate how to deploy a simple app on the [Humanitec internal developer platform](https://humanitec.com).
