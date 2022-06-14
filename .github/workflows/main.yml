@@ -43,8 +43,8 @@ jobs:
       - name: Inform Humanitec
         run: |-
           curl \
-            --request POST 'https://dev-api.humanitec.io/orgs/'$HUMANITEC_ORG'/images/'$IMAGE_NAME'/builds' \
-            --header 'Authorization: Bearer ${{ secrets.HUMANITEC_TOKEN }}' \
+            --request POST 'https://staging-api.humanitec.io/orgs/'$HUMANITEC_ORG'/images/'$IMAGE_NAME'/builds' \
+            --header 'Authorization: Bearer ${{ secrets.HUMANITEC_STAGING_TOKEN }}' \
             --header 'Content-Type: application/json' \
             --data-raw '{ 
                 "branch": "'$GITHUB_BRANCH'",
