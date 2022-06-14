@@ -15,7 +15,7 @@ jobs:
       IMAGE_NAME: my-own-sample-app
       PROJECT_ID: ${{ secrets.PROJECT_ID }}
       REGISTRY_URL: eu.gcr.io
-      HUMANITEC_ORG: testing-org-bianca
+      HUMANITEC_ORG: testing-org-bianca-stage
 
     steps:
       - name: Checkout
