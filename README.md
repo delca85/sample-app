@@ -1,6 +1,6 @@
 # Demo product frontend
 
-This is a fork of the Humanitec-tutorials repo.
+This is a fork of the Humanitec-tutorials repo that I use to test automation rules.
 
 ## Overview
 
