@@ -23,7 +23,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Build and Push to Humanitec
-      uses: humanitec/build-push-to-humanitec@WAL-5119-artefacts
+      uses: humanitec/build-push-to-humanitec@WAL-5312-remove-digest
       with:
         humanitec-token: ${{ secrets.HUMANITEC_TOKEN }}
         organization: testing-org-bianca-prod
