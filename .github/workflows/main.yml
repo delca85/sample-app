@@ -29,3 +29,4 @@ jobs:
         with:
           humanitec-token: ${{ secrets.HUMANITEC_TOKEN }}
           organization: testing-org-bianca-prod
+          auto-tag: true
