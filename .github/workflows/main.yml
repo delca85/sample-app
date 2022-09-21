@@ -9,6 +9,9 @@ on:
     branches: [master]
     tags:
       - "*"
+  pull_request:
+    branches: [ master ]
+    
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Build and Push to Humanitec
-        uses: humanitec/build-push-to-humanitec@v1
+        uses: humanitec/build-push-to-humanitec@fix-ref-pr-trigger
         with:
           humanitec-token: ${{ secrets.HUMANITEC_TOKEN }}
           organization: testing-org-bianca-prod
